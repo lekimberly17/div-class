@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather:wght@300;900&display=swap');
+
+.top-container {
+background-color:#EBDCC9;
+position:relative;
+padding-top:20px;
+padding-bottom: 20px;
+
+}
+
+body {
+    margin:0;
+    text-align:center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:20px;
+    color:black;
+}
+
+.headings {
+    font-family: 'Merriweather', serif;
+    color:#6d4c41
+}
+
+.middle-container {
+    margin: auto;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:black;
+    padding-top:30px;
+
+}
+
+.profile {
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+
+}
+
+.introduction {
+    width:50%;
+    margin: auto;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:black;
+    padding-top:20px;
+    /* padding-bottom:100px; */
+}
+
+  hr{border: dotted #EBDCC9 8px;
+    width: 4%;
+    margin: 3% auto;
+    border-bottom: none;
+}
+
+.bottom-container {
+    background-color:#352315;
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    color:whitesmoke;
+    padding-top:20px;
+}
+
+.project {
+    display: flex;
+    justify-content:center;
+    font-family: 'Merriweather', serif;
+    color:black;
+    text-decoration: none;
+}
+
+.resume {
+  width:60%;
+  margin: auto;
+  text-align:left;
+  font-family: 'Merriweather', serif;
+  color:black;
+}
+
+.resume-heading {
+  width:60%;
+  margin: auto;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+  color:#9A784F;
+  text-decoration: none;
+  /* padding-top: 2%; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* resume columns */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  padding-left: 10%;
+  height: 20%;
+  font-family: 'Merriweather', serif;
+  color:black;
+  text-align:left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #352315;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+   /* Footer */
+  .footer-link {
+    color:white;
+    margin:1%;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+
+}
+
+
+
